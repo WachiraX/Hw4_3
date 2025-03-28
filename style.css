@@ -1,0 +1,103 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7ebff;
+    color: #4a235a;
+    text-align: center;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    color: #6a1b9a;
+}
+
+.form-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 20px;
+}
+
+input, button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #c325df;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #8e24aa;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #d1c4e9;
+}
+
+.past-appointment {
+    background-color: #ffebee;
+    text-decoration: line-through;
+    color: #d32f2f;
+}
+
+.cancelled-appointment {
+    background-color: #ffccbc;
+    color: #d84315;
+}
+
+.conflict-appointment {
+    background-color: #fff3cd; /* สีเหลืองอ่อน */
+    color: #856404;
+}
+
+.cancel-btn {
+    background-color: #ff9800;
+    border: none;
+}
+
+.cancel-btn:hover {
+    background-color: #e65100;
+}
+
+.delete-btn {
+    background-color: #e57373;
+    border: none;
+}
+
+.delete-btn:hover {
+    background-color: #c62828;
+}
+
+.clear-btn {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #9c27b0;
+    border: none;
+}
+
+.clear-btn:hover {
+    background-color: #6a1b9a;
+}
